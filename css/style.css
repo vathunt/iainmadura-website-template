@@ -370,18 +370,6 @@ a:focus {
   overflow: hidden;
 }
 
-@media (max-width: 414px) {
-  .carousel .carousel-img {
-    max-height: 150px;
-  }
-
-  .carousel .owl-nav .owl-prev,
-  .carousel .owl-nav .owl-next {
-    height: 25px;
-    width: 25px;
-  }
-}
-
 .carousel .carousel-img::after {
   position: absolute;
   content: "";
@@ -509,6 +497,10 @@ a:focus {
 }
 
 @media (max-width: 767.98px) {
+  .carousel .carousel-img {
+    max-height: 150px;
+  }
+
   .carousel .carousel-text h3 {
     font-size: 18px;
     letter-spacing: 2px;
@@ -523,6 +515,12 @@ a:focus {
     padding: 10px 25px;
     font-size: 15px;
     letter-spacing: 0;
+  }
+
+  .carousel .owl-nav .owl-prev,
+  .carousel .owl-nav .owl-next {
+    width: 35px;
+    height: 35px;
   }
 }
 
