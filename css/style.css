@@ -642,6 +642,10 @@ a:focus {
   margin: 0 auto 25px auto;
 }
 
+.schedule {
+  padding-left: 50px;
+}
+
 .section-header p {
   display: inline-block;
   margin-bottom: 10px;
@@ -960,8 +964,15 @@ a:focus {
   padding: 45px 0;
 }
 
+.location .section-header h2 {
+  padding-bottom: 5px;
+  border-bottom: 4px solid var(--secondary-color);
+}
+
 .location .location-item {
-  display: flex;
+  /* display: flex; */
+  display: inline-block;
+  display: -webkit-inline-box;
   margin-bottom: 30px;
 }
 
@@ -972,12 +983,19 @@ a:focus {
 }
 
 .location .location-text {
-  padding-left: 15px;
+  padding: 0 20px 0 10px;
+  margin-right: 25px;
+  text-align: justify;
 }
 
 .location .location-text h3 {
   font-size: 18px;
   font-weight: 700;
+}
+
+.location .location-text img {
+  max-width: 100%;
+  margin-bottom: 10px;
 }
 
 .location .location-text p {
